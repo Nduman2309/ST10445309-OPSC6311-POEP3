@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/registrationPopupOverlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/glass_dim"
+    android:visibility="gone"
+    android:clickable="true"
+    android:focusable="true">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/btnDismissPopup"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="end"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel"
+                    app:tint="@color/error_red" />
+            </FrameLayout>
+
+            <!-- Custom tick icon with square background and black border -->
+            <ImageView
+                android:id="@+id/ivTickLoop"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/ic_custom_tick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Account Registration successful"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="@string/reg_congrats"
+                android:textColor="@color/accent_gray"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnPopupLogin"
+                style="@style/NeonButton"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="40dp"
+                android:text="Login now" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

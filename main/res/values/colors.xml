@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 2026 Elite Rhythmic Palette -->
+    <color name="black">#FF050505</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lime_green">#43E90B</color>
+    <color name="deep_lime">#35C000</color>
+    <color name="cyber_cyan">#00D4FF</color>
+
+    <!-- Surfaces & Glass -->
+    <color name="obsidian_deep">#0A0A0A</color>
+    <color name="obsidian_surface">#121212</color>
+    <color name="carbon_card">#1C1C1E</color>
+    <color name="soft_bg">#F2F2F7</color>
+    <color name="glass_white">#CCFFFFFF</color>
+    <color name="glass_dim">#B3000000</color>
+    <color name="blur_heavy">#F2000000</color>
+    <color name="blur_dim_heavy">#CC000000</color>
+
+    <!-- Sidebar Dual Tones -->
+    <color name="menu_bg_left">#1A1A1B</color>
+    <color name="menu_bg_right">#0D0D0D</color>
+
+    <!-- Functional & State -->
+    <color name="accent_gray">#8E8E93</color>
+    <color name="accent_gray_cool">#AEAEB2</color>
+    <color name="error_red">#FF3B30</color>
+    <color name="success_tick">#34C759</color>
+    <color name="card_border_glow">#4D43E90B</color>
+
+    <!-- Animation Components -->
+    <color name="treasure_light_beam">#E6FFFFFF</color>
+    <color name="progress_empty_track">#268E8E93</color>
+    <color name="gold_highlight">#FFD700</color>
+
+    <!-- Wallet23 Gradient -->
+    <color name="wallet_grad_start">#43E90B</color>
+    <color name="wallet_grad_mid">#00D4FF</color>
+    <color name="wallet_grad_end">#35C000</color>
+</resources>

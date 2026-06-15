@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Wallet23</string>
+    <string name="title_register">Elite Registration</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_income_baseline">Monthly Income Baseline (R)</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Create Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_register">Join the Network</string>
+    <string name="login_link">System Access Exists? Login here</string>
+    <string name="copyright">© 2026 Malaca Effects Pty Ltd. All rights reserved.</string>
+
+    <!-- Navigation Strings -->
+    <string name="menu_dashboard">Intelligence Hub</string>
+    <string name="menu_transactions">Capital Flow</string>
+    <string name="menu_goals">Mission Control</string>
+    <string name="menu_leaderboard">Elite Rankings</string>
+    <string name="menu_history">Legacy Vault</string>
+    <string name="menu_logout">Exit System</string>
+
+    <!-- Status Overlays -->
+    <string name="reg_access_granted">Access Granted</string>
+    <string name="reg_congrats">Congratulations for joining the smart money strategy. Your elite tracking interface is ready.</string>
+    <string name="btn_init_login">Initialize Login</string>
+
+    <!-- Mission Completion -->
+    <string name="mission_achieved">MISSION ACHIEVED</string>
+    <string name="mission_success_msg">Congratulations! You have successfully completed your financial mission.</string>
+    <string name="congrats_mission">Congratulations! You have successfully completed your financial mission.</string>
+    <string name="btn_view_vault">Access Legacy Vault</string>
+    <string name="btn_close_mission">Close Mission</string>
+</resources>

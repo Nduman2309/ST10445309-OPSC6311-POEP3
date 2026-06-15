@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_bg_left"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wallet23"
+        android:textColor="@color/lime_green"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp" />
+
+    <TextView
+        android:id="@+id/menuDashboard"
+        style="@style/NavMenuItem"
+        android:text="Home" />
+
+    <TextView
+        android:id="@+id/menuTransactions"
+        style="@style/NavMenuItem"
+        android:text="Transaction Entry" />
+
+    <TextView
+        android:id="@+id/menuCategoryGoals"
+        style="@style/NavMenuItem"
+        android:text="Budget Goals" />
+
+    <TextView
+        android:id="@+id/menuLeaderboard"
+        style="@style/NavMenuItem"
+        android:text="Savings Leaderboard" />
+
+    <TextView
+        android:id="@+id/menuHistory"
+        style="@style/NavMenuItem"
+        android:text="Account History" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#22FFFFFF"
+        android:layout_marginVertical="32dp" />
+
+    <TextView
+        android:id="@+id/menuLogout"
+        style="@style/NavMenuItem"
+        android:text="Close App"
+        android:textColor="@color/error_red" />
+
+</LinearLayout>
